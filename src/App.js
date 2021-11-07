@@ -31,7 +31,7 @@ function App() {
           <li>
             {g.value} - <button onClick={() => deleteOne(index)}>Delete</button>
             <button onClick={() => count(index, true)}>+</button> {g.counter}
-            <button onClick={() => count(index, true)}>-</button>
+            <button onClick={() => count(index, false)}>-</button>
           </li>
         ))}
       </ul>
